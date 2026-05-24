@@ -91,9 +91,9 @@ export default function CartPage() {
 
           </div>
 
-          <button className="w-full mt-8 bg-indigo-600 hover:bg-indigo-500 py-4 rounded-2xl font-semibold">
-            Passer au paiement
-          </button>
+         <button className="w-full mt-8 bg-indigo-600 hover:bg-indigo-500 py-4 rounded-2xl font-semibold">
+             Passer au paiement
+         </button>
 
         </div>
 
