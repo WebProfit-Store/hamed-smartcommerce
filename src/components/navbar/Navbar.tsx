@@ -27,9 +27,11 @@ export default function Navbar() {
 
           <button>
             <Search size={20} />
-          </<Link href="/panier">
-      <ShoppingCart size={20} />
-         </Link>
+          </button>
+
+          <Link href="/panier">
+  <ShoppingCart size={20} />
+</Link>
 
           <button>
             <User size={20} />
