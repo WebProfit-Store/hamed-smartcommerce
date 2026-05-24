@@ -1,18 +1,20 @@
-import "./globals.css";
+import type { Metadata } from "next";
 
-export const metadata = {
-  title: "SmartCommerce AI",
-  description: "Plateforme e-commerce intelligente",
+export const metadata: Metadata = {
+
+  title: {
+    default: "SmartCommerce AI",
+    template: "%s | SmartCommerce AI",
+  },
+
+  description:
+    "Plateforme e-commerce intelligente.",
+
+  keywords: [
+    "ecommerce",
+    "ai",
+    "shopping",
+    "mobile money",
+  ],
+
 };
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="fr">
-      <body>{children}</body>
-    </html>
-  );
-}
