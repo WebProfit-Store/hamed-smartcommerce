@@ -30,8 +30,8 @@ export default function Navbar() {
           </button>
 
           <Link href="/panier">
-  <ShoppingCart size={20} />
-</Link>
+     <ShoppingCart size={20} />
+          </Link>
 
           <button>
             <User size={20} />
